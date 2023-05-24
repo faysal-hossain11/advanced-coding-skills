@@ -1,0 +1,40 @@
+#navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+    padding-top: 18px;
+    .nav-link{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        color: #fff;
+        padding: 0px 18px;
+        &:hover{
+            color: #ff4eca;
+        }
+    }
+    .nav-btn a{
+        color: #fff;
+        button{
+            border: 1px solid #fff;
+            border-radius: 30px;
+            background: transparent;
+            padding: 13px 31px;
+            font-size: 16px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 500;
+            cursor: pointer;
+            color: #fff;
+        }
+    }
+    a.navbar-brand {
+        display: flex;
+        svg{
+            margin-right: 7px;
+        }
+    }
+
+}

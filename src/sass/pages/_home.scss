@@ -1,0 +1,118 @@
+@import '../utils/variable';
+
+.banner {
+    background-image: linear-gradient($primary, $primary2);
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 180px;
+
+    &-content {
+        color: #fff;
+
+        h1 {
+            font-family: 'DM Sans', sans-serif;
+            font-weight: bold;
+            font-size: 68px;
+            margin-bottom: 29px;
+            z-index: 999;
+            position: relative;
+        }
+
+        p {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 38px;
+            line-height: 41px;
+            z-index: 999;
+            position: relative;
+        }
+    }
+
+    .banner-btn {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        .i-con1 {
+            background: #fff;
+            border-radius: 30px;
+            z-index: 999;
+            position: relative;
+        }
+
+        .i-con2 {
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            color: $white;
+            margin-left: 20px;
+            transition: all .3s ease-in-out;
+            z-index: 999;
+            position: relative;
+            &:hover {
+                background: $white;
+                color: $t-color;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            padding: 13px 31px;
+            color: $t-color;
+        }
+
+    }
+
+    .brand-logo {
+        margin-top: 40px;
+        z-index: 9;
+        position: relative;
+        span {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            margin-right: 21px;
+        }
+
+        img {
+            margin-right: 27px;
+        }
+    }
+
+    .banner-img {
+        width: 90%;
+
+        img {
+            width: 100%;
+            z-index: 99;
+            position: relative;
+        }
+    }
+
+    .rect-1 {
+        position: absolute;
+        top: -60px;
+        left: 0;
+    }
+    .rect-2 {
+        position: absolute;
+        bottom: -37px;
+        left: 0;
+    }
+    .rect-3 {
+        position: absolute;
+        bottom: 0px;
+        right: 245px;
+    }
+    .rect-4 {
+        position: absolute;
+        top: -348px;
+        right: -192px;
+    }
+    .rect-5 {
+        position: absolute;
+        top: 110px;
+        right: 146px;
+    }
+
+
+}
